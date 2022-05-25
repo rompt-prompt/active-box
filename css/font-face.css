@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Cardo";
+    src:
+        local("Cardo-Italic"),
+        url("/fonts/Cardo-Italic.woff2") format("woff2"),
+        url("/fonts/Cardo-Italic.ttf") format("ttf"),
+        url("/fonts/Cardo-Italic.svg") format("svg");
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src:
+        local("OpenSans-Bold"),
+        url("/fonts/OpenSans-Bold.woff2") format("woff2"),
+        url("/fonts/OpenSans-Bold.ttf") format("ttf"),
+        url("/fonts/OpenSans-Bold.svg") format("svg");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src:
+        local("Raleway-Bold"),
+        url("/fonts/Raleway-Bold.woff2") format("woff2"),
+        url("/fonts/Raleway-Bold.ttf") format("ttf"),
+        url("/fonts/Raleway-Bold.svg") format("svg");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src:
+        local("Raleway-Light"),
+        url("/fonts/Raleway-Light.woff2") format("woff2"),
+        url("/fonts/Raleway-Light.ttf") format("ttf"),
+        url("/fonts/Raleway-Light.svg") format("svg");
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src:
+        local("Raleway-Regular"),
+        url("/fonts/Raleway-Regular.woff2") format("woff2"),
+        url("/fonts/Raleway-Regular.ttf") format("ttf"),
+        url("/fonts/Raleway-Regular.svg") format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src:
+        local("Raleway-SemiBold"),
+        url("/fonts/Raleway-SemiBold.woff2") format("woff2"),
+        url("/fonts/Raleway-SemiBold.ttf") format("ttf"),
+        url("/fonts/Raleway-SemiBold.svg") format("svg");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Webdings";
+    src:
+        local("Webdings"),
+        url("/fonts/webdings.woff2") format("woff2"),
+        url("/fonts/webdings.ttf") format("ttf"),
+        url("/fonts/webdings.svg") format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
