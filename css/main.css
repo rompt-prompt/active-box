@@ -7,16 +7,21 @@
     display: block;
     text-align: center;
     box-sizing: border-box;
-    padding: 18px 0;
+    padding: 15px 5px;
     margin: 0 auto;
     width: 280px;
-    height: 46px;
     background-color: #e84545;
     border-radius: 2px;
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
     color: #ffffff;
+    white-space: nowrap;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #e52e2e;
 }
 
 .btn--small {
@@ -108,4 +113,43 @@ img {
     font-weight: 400;
     color: #ffffff;
     text-align: center;
+}
+
+/*===========================================================================
+-----------------------------FEATURES
+===========================================================================*/
+
+.features__content{
+    padding: 47px 7.5px 124px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.feature {
+    width: 310px;
+    margin-top: 74px;
+    text-align: center;
+}
+
+.icon {
+    color: #e84545;
+    font-size: 60px;
+}
+
+.feature__title {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2d3033;
+    margin-top: 34px;
+    margin-bottom: 25px;
+}
+
+.feature__description {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6c7279;
 }
