@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+ul li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+/*------------------------------------------------------
+highlight
+------------------------------------------------------*/
+
+body, div, section {
+    outline: 1px dotted red;
+}
