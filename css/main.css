@@ -1,0 +1,111 @@
+.width-wrapper {
+    max-width: 1155px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 18px 0;
+    margin: 0 auto;
+    width: 280px;
+    height: 46px;
+    background-color: #e84545;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.btn--small {
+    width: 200px;
+}
+
+/*===========================================================================
+-----------------------------HEADER
+===========================================================================*/
+
+.header {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background-color: transparent;
+}
+
+.header:hover {
+    background-color: #292c47;
+    transition: 0.5s;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 38px 7.5px;
+    box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.15);
+}
+
+img {
+    vertical-align: middle;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navigation__link a{
+    line-height: 1.9;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    white-space: nowrap;
+    margin-left: 59px;
+    opacity: 0.74;
+    transition: 0.1s;
+}
+
+.navigation__link a:hover {
+    opacity: 1;
+}
+
+/*===========================================================================
+-----------------------------MASTERHEAD
+===========================================================================*/
+
+.masterhead {
+    /* min-height: 750px; */
+    background: url(/images/bg_masterhead.jpg) no-repeat;
+    background-size: cover;
+}
+
+.masterhead__content {
+    padding: 102px 7.5px 156px;
+}
+
+.masterhead__title {
+    display: block;
+    margin: 156px auto 41px;
+    max-width: 870px;
+    font-family: 'Open Sans';
+    font-size: 65px;
+    line-height: 71px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+}
+
+.masterhead__description {
+    display: block;
+    margin: 0 auto 76px;
+    max-width: 916px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
