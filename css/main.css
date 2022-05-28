@@ -329,3 +329,73 @@ img {
 .social-links:hover.social-links span {
     color: #ffffff;
 }
+
+/*===========================================================================
+-----------------------------TESTIOMONIALS
+===========================================================================*/
+
+.testimonials {
+
+}
+
+.slides {
+    background-color: #53354a;
+}
+
+.client {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto 15%;
+    grid-template-areas:    "photo qoute"
+                            "photo navigation";
+    justify-items: center;
+}
+
+.cient__photo {
+    grid-area: photo;
+    width: 100%;
+    height: auto;
+}
+
+.client blockquote {
+    grid-area: qoute;
+    padding: 5px;
+    margin-left: 75px;
+    align-self: center;
+}
+
+.client__qoute {
+    font-family: Cardo;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.client__name {
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.client__navigation {
+    grid-area: navigation;
+}
+
+.navigation__point {
+    display: inline-block;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    opacity: 0.2;
+    background-color: #ffffff;
+    margin: 4px;
+}
+
+.navigation__point--active {
+    opacity: 1;
+}
