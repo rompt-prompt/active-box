@@ -253,3 +253,79 @@ img {
 .work:hover .work__title {
     margin-bottom: 13px;
 }
+
+/*===========================================================================
+-----------------------------TEAM
+===========================================================================*/
+
+.team {
+    padding: 101px 7.5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.person {
+    width: 270px;
+}
+
+.person__photo {
+    width: 270px;
+    height: 270px;
+}
+
+.person__name {
+    font-size: 22px;
+    font-weight: 400;
+    color: #2d3033;
+    margin-top: 30px;
+}
+
+.person__position {
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #e84545;
+    margin-top: 16px;
+}
+
+.person__descrioption {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #6c7279;
+    margin-top: 29px;
+}
+
+.person__social-links {
+    margin-top: 29px;
+    text-align: center;
+
+}
+
+.social-links {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid #e8ecee;
+    margin: 2px;
+    vertical-align: middle;
+    transition: 0.3s;
+}
+
+.social-links span {
+    font-size: 18px;
+    line-height: 40px;
+    color: #c6cacc;
+    transition: 0.3s;
+}
+
+.social-links:hover {
+    border: 1px solid #e84545;
+    background-color: #e84545;
+    border-radius: 2px;
+}
+
+.social-links:hover.social-links span {
+    color: #ffffff;
+}
