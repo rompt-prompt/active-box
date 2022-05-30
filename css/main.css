@@ -28,6 +28,7 @@ p {
     text-transform: uppercase;
     color: #ffffff;
     white-space: nowrap;
+    transition: 0.3s;
 }
 
 .btn:hover,
@@ -37,6 +38,52 @@ p {
 
 .btn--small {
     width: 200px;
+}
+
+/*---------------------------------
+-----------------------------SOCIALS
+----------------------------------*/
+
+.social-container {
+    text-align: center;
+
+}
+
+.social-container__links {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: 1px solid #e8ecee;
+    margin: 2px;
+    vertical-align: middle;
+    transition: 0.3s;
+}
+
+.social-container__links span {
+    font-size: 18px;
+    line-height: 40px;
+    color: #c6cacc;
+    transition: 0.3s;
+}
+
+.social-container__links--white {
+    border: 1px solid #ffffff;
+}
+
+.social-container__links--white span {
+    color: #ffffff;
+}
+
+.social-container__links:hover {
+    border: 1px solid #e84545;
+    background-color: #e84545;
+    border-radius: 2px;
+}
+
+.social-container__links:hover.social-container__links span {
+    color: #ffffff;
 }
 
 /*===========================================================================
@@ -265,12 +312,13 @@ img {
 }
 
 .person {
+    padding: 4px;
     width: 270px;
 }
 
 .person__photo {
-    width: 270px;
-    height: 270px;
+    width: 100%;
+    height: auto;
 }
 
 .person__name {
@@ -294,49 +342,12 @@ img {
     font-weight: 400;
     color: #6c7279;
     margin-top: 29px;
-}
-
-.person__social-links {
-    margin-top: 29px;
-    text-align: center;
-
-}
-
-.social-links {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    background-color: #ffffff;
-    border: 1px solid #e8ecee;
-    margin: 2px;
-    vertical-align: middle;
-    transition: 0.3s;
-}
-
-.social-links span {
-    font-size: 18px;
-    line-height: 40px;
-    color: #c6cacc;
-    transition: 0.3s;
-}
-
-.social-links:hover {
-    border: 1px solid #e84545;
-    background-color: #e84545;
-    border-radius: 2px;
-}
-
-.social-links:hover.social-links span {
-    color: #ffffff;
+    margin-bottom: 29px;
 }
 
 /*===========================================================================
 -----------------------------TESTIOMONIALS
 ===========================================================================*/
-
-.testimonials {
-
-}
 
 .slides {
     background-color: #53354a;
@@ -399,3 +410,86 @@ img {
 .navigation__point--active {
     opacity: 1;
 }
+
+/*===========================================================================
+-----------------------------DOWNLOAD
+===========================================================================*/
+
+.download {
+    padding: 100px 7.5px;
+    text-align: center;
+}
+
+.download__title {
+    font-size: 28px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #2d3033;
+    margin-bottom: 16px;
+}
+
+.download__about {
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2d3033;
+    margin-bottom: 40px;
+}
+
+/*===========================================================================
+-----------------------------FOOTER
+===========================================================================*/
+
+footer {
+    background-color: #3a3e64;
+}
+
+.footer-section {
+    padding: 71px 140px 88px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-section__col {
+    flex-basis: 33.33%;
+    text-align: center;
+}
+
+.col__name {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 21px;
+}
+
+.col__decription {
+    opacity: 0.5;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.footer-bottom {
+    background-color: #313454;
+    text-align: center;
+    padding: 29px 0;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #808080;
+}
+
+.footer-bottom span {
+    color: #ffffff;
+}
+
+.footer-bottom i {
+    font-family: Webdings;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #e84545;
+    }
