@@ -57,9 +57,9 @@
     font-family: "Raleway";
     src:
         local("Raleway-SemiBold"),
-        url("/fonts/Raleway-SemiBold.woff2") format("woff2"),
-        url("/fonts/Raleway-SemiBold.ttf") format("ttf"),
-        url("/fonts/Raleway-SemiBold.svg") format("svg");
+        url("fonts/Raleway-SemiBold.woff2") format("woff2"),
+        url("fonts/Raleway-SemiBold.ttf") format("ttf"),
+        url("fonts/Raleway-SemiBold.svg") format("svg");
     font-style: normal;
     font-weight: 600;
 }
@@ -68,9 +68,9 @@
     font-family: "Webdings";
     src:
         local("Webdings"),
-        url("/fonts/webdings.woff2") format("woff2"),
-        url("/fonts/webdings.ttf") format("ttf"),
-        url("/fonts/webdings.svg") format("svg");
+        url("fonts/webdings.woff2") format("woff2"),
+        url("fonts/webdings.ttf") format("ttf"),
+        url("fonts/webdings.svg") format("svg");
     font-style: normal;
     font-weight: 400;
 }

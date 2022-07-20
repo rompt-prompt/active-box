@@ -91,15 +91,10 @@ p {
 ===========================================================================*/
 
 .header {
+    background-color: #292c47;
     position: fixed;
     z-index: 1000;
     width: 100%;
-    background-color: transparent;
-}
-
-.header:hover {
-    background-color: #292c47;
-    transition: 0.5s;
 }
 
 .header__content {
@@ -142,7 +137,7 @@ img {
 
 .masterhead {
     /* min-height: 750px; */
-    background: url(/images/bg_masterhead.jpg) no-repeat;
+    background: url('../images/bg_masterhead.jpg') no-repeat;
     background-size: cover;
 }
 
@@ -237,35 +232,35 @@ img {
 }
 
 .work__img--1 {
-    background-image: url(/images/work_1.jpg);
+    background-image: url('../images/work_1.jpg');
 }
 
 .work__img--2 {
-    background-image: url(/images/work_2.jpg);
+    background-image: url('../images/work_2.jpg');
 }
 
 .work__img--3 {
-    background-image: url(/images/work_3.jpg);
+    background-image: url('../images/work_3.jpg');
 }
 
 .work__img--4 {
-    background-image: url(/images/work_4.jpg);
+    background-image: url('../images/work_4.jpg');
 }
 
 .work__img--5 {
-    background-image: url(/images/work_5.jpg);
+    background-image: url('../images/work_5.jpg');
 }
 
 .work__img--6 {
-    background-image: url(/images/work_6.jpg);
+    background-image: url('../images/work_6.jpg');
 }
 
 .work__img--7 {
-    background-image: url(/images/work_7.jpg);
+    background-image: url('../images/work_7.jpg');
 }
 
 .work__img--8 {
-    background-image: url(/images/work_8.jpg);
+    background-image: url('../images/work_8.jpg');
 }
 
 .work__overlay {
